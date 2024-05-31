@@ -15,19 +15,17 @@
 1. Create a new file named `filename.mmd`.
 2. Enter your Mermaid code into this file. For example:
 
-   ```mermaid
+   ```
    flowchart LR
        a --> b & c --> d
    ```
 
-   NOTE: No need to include `mermaid` block if working inside `.mmd` file
-
 3. Open the terminal and navigate to the folder containing your `.mmd` file.
 4. Run the following command to generate an SVG file from your Mermaid file:
    ```sh
-   mmdc -i <path>/input.mmd -o <path>/output.svg
+   mmdc -I <path>/input.mmd -o <path>/output.svg
    ```
 
-## BOOKs & Resources
+## Books & Resources
 
 - [Creating Software with Modern Diagramming Techniques](https://learning.oreilly.com/library/view/creating-software-with/9798888650219/)
