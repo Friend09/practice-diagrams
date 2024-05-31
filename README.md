@@ -1,4 +1,4 @@
-# README: Mermaid
+# README: Diagrams for Software Engineering
 
 ## To Create Mermaid Chart from a Mermaid File
 
@@ -24,6 +24,10 @@
 4. Run the following command to generate an SVG file from your Mermaid file:
    ```sh
    mmdc -I <path>/input.mmd -o <path>/output.svg
+   ```
+5. similarly to generate a png/pdf file just update the file extension
+   ```sh
+   mmdc -i path-to-your-mermaid-file.mmd -o output.png
    ```
 
 ## Books & Resources
